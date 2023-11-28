@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* font-family: 'Open Sans', sans-serif; */
+    /* color: #fff; */
+}
+
+section{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../img/zolo-mask.jpg) no-repeat center center/cover;
+    background-size: cover;
+}
+
+
+.form-container{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #fff;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin:1em 0;
+}
+
+.control input[type="submit"]{
+    background: rgb(237, 54, 54);
+    color: #222;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .7;
+    font-size: 1.2em;
+    transition:  opacity .3s ease;
+}
+
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
+
+/* toggle buttons */
+/* .button-box{
+    border: 1px solid;
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #9bfaf8;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn-toggle a{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+   */
+
