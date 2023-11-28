@@ -19,8 +19,7 @@
 
 </p>
 
- ![Car](https://github.com/Suruchi7-2/CarMAx/assets/99664390/83f60410-aa7c-42a7-b668-bc38fbc3c1a8)
-   
+    
 ## Project Overview 😺
 
 ## LIVE LINK 
@@ -29,8 +28,28 @@
 ### <a href="https://github.com/Suruchi7-2/CarMAx/tree/master/LinuxScript" > Linux Script </a>
 # CarMax - Your Premier Car Buying and Selling Platform
 CarMax is your ultimate destination for hassle-free car buying and selling. With a vast inventory, competitive prices, and a customer-centric approach, we're here to make your car transactions seamless.
- 
-## Features
+
+
+
+## Screenshot
+
+### Home Pgae
+![Screenshot 2023-11-28 193528](https://github.com/Suruchi7-2/CarMAx/assets/99664390/49a98808-107c-4348-9922-75f85c678c74)
+
+### 1.Login/Singup
+
+![Screenshot 2023-11-28 193609](https://github.com/Suruchi7-2/CarMAx/assets/99664390/4083c4f2-0e9e-493c-8e34-6854a28fd71f)
+
+### 2.Contact Us
+
+![Screenshot 2023-11-28 193643](https://github.com/Suruchi7-2/CarMAx/assets/99664390/a219d627-12c2-444b-a2c2-ceff9cd7c518)
+
+### 3.About Us
+
+![image](https://github.com/Suruchi7-2/CarMAx/assets/99664390/6d501d7e-d84c-4c4b-806a-7b7b9ef24f6e)
+
+
+
 
 -CarMax offers a variety of features that make it easy to buy and sell cars:
 -Vast selection of vehicles: Imagen of a car lot Competitive pricing No-haggle policy Easy online shopping Friendly and knowledgeable staff How to Buy a Car on CarMax Buying a car on CarMax is easy and straightforward:
