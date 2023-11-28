@@ -18,7 +18,8 @@
 <img src="https://raw.githubusercontent.com/Suruchi7-2/CarMAx/master/Car.jpeg" alt="head"  " />
 
 </p>
-    
+ ![Car](https://github.com/Suruchi7-2/CarMAx/assets/99664390/83f60410-aa7c-42a7-b668-bc38fbc3c1a8)
+   
 ## Project Overview 😺
 
 ## LIVE LINK 
