@@ -1,5 +1,7 @@
 # LINUX SCRIPT
 
+## Code
+
 ```bash
 #!/bin/bash
 
@@ -56,4 +58,47 @@ list_users() {
         getent passwd | grep -vE '(/usr/sbin/nologin|/bin/false)$' | cut -d: -f1
     fi
 }
+```
+
+Flowchart
+
+ ```bash
++-------------------------------------+
+|           Usage: internsctl         |
+|         <command> [<options>]       |
+|            [<arguments>]            |
++------------------+------------------+
+                   |
+                   V
++--------------+   |   +--------------+   +--------------+
+|   Commands   |   +-->|   Options    |   |  --help      |
++--------------+       +--------------+   +--------------+
+| cpu getinfo  |          --size, -s         Display help   |
+| memory getinfo |          --permissions, -p      |         |
+| user create <username>  |     --owner, -o          V         |
+| user list          |     --last-modified, -m    +--------------+
+| user list --sudo-only |                         | Display help |
+| file getinfo <file-name> |                       +--------------+
++--------------+                                  |
+        |                                          V
+        V                                   +--------------+
++-------------+                          |   --version   |
+| get_cpu_info|                          +--------------+
++-------------+                                  |
+        |                                          V
+        V                                   +--------------+
++--------------+                          | Display version|
+| get_memory_info |                        +--------------+
++--------------+
+        |
+        V
++------------------+
+|  create_user     |
++------------------+
+        |
+        V
++------------------+
+|   list_users     |
++------------------+
+
 ```
