@@ -9,9 +9,9 @@
 display_help() {
     echo "Usage: internsctl <command> [<options>] [<arguments>]"
     echo "Commands:"
-    echo "  cpu getinfo              - Get CPU information"
+    echo "  cpu getinfo              - This command will display a lot of detailed information about your CPU, including the CPU vendor, model name, operating."
     echo "  memory getinfo           - Get memory information"
-    echo "  user create <username>   - Create a new user"
+    echo "  user create <username>   - Create  new user"
     echo "  user list                - List all regular users"
     echo "  user list --sudo-only    - List users with sudo permissions"
     echo "  file getinfo <file-name> - Get information about a file"
