@@ -17,6 +17,10 @@
     
 ## Project Overview 😺
 
+## LIVE LINK 
+## <a href="https://carmax.techfestsliet.org/">https://carmax.techfestsliet.org/</a>
+## Linux LINK 
+### <a href="https://github.com/Suruchi7-2/CarMAx/tree/master/LinuxScript" > Linux Script </a>
 **Project Overview:** 
 "CarMax is the premier destination for buying and selling cars. With a wide selection of vehicles, competitive pricing, and a no-haggle policy, CarMax is sure to have the perfect car for you.
 
