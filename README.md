@@ -19,8 +19,7 @@
 
 ## LIVE LINK 
 ## <a href="https://carmax.techfestsliet.org/">https://carmax.techfestsliet.org/</a>
-## Linux LINK 
-### <a href="https://github.com/Suruchi7-2/CarMAx/tree/master/LinuxScript" > Linux Script </a>
+
 # CarMax - Your Premier Car Buying and Selling Platform
 CarMax is your ultimate destination for hassle-free car buying and selling. With a vast inventory, competitive prices, and a customer-centric approach, we're here to make your car transactions seamless.
 
