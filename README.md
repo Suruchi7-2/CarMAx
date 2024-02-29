@@ -1,8 +1,3 @@
-# Task 1 - *Linux Custom Script*
-## <a target="_blank" href="https://github.com/Suruchi7-2/CarMAx/tree/master/LinuxScript">Click here </a>
-
-# Task 2 - Technical Task-Xenonstack 
-
 <h1 align="center">
         <samp>&gt;
                 <b><a target="_blank" href="carmax.techfestsliet.org/">CarMax </a></b>
