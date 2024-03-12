@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: None;
 }
 
 .container {
@@ -40,7 +41,6 @@
 }
 
 .logo {
-    
     height: 100px;
     padding: 0px 40px;
 }
@@ -349,23 +349,24 @@
     }
 } */
 
-.user-message{
-	margin: auto;
-	width: 80%;
-	border: 1px solid #ffeb3b;
-	padding: 0.9rem;
-	border-radius: 2.5px;
-	background: #b9c9ff;
-	text-align: center;
-	color: #00695c;
-  }
-  .user-message-error{
-	border-color: red;
-	background: rgb(256, 176,176);
-	color: red;
-  }
+.user-message {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #ffeb3b;
+    padding: 0.9rem;
+    border-radius: 2.5px;
+    background: #b9c9ff;
+    text-align: center;
+    color: #00695c;
+}
 
-  .control1 input[type="submit"]{
+.user-message-error {
+    border-color: red;
+    background: rgb(256, 176, 176);
+    color: red;
+}
+
+.control1 input[type="submit"] {
     background: rgb(237, 54, 54);
     color: #222;
     cursor: pointer;
@@ -373,10 +374,10 @@
     text-transform: uppercase;
     opacity: .7;
     font-size: 1.2em;
-    transition:  opacity .3s ease;
+    transition: opacity .3s ease;
     padding: 4px;
 }
 
-.control1 input[type="submit"]:hover{
+.control1 input[type="submit"]:hover {
     opacity: 1;
 }

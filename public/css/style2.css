@@ -2,15 +2,18 @@
 *>* {
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background-image: url("/images/bg1.jpg");
 }
+
 :root {
     --color-dark: #0b0218;
     --color-secondary-dark: #464c70;
     --color-primary: #05f1f1;
     --color-text: #c2c2d1;
     --color-light: #ffffff;
+    background-color: None;
 }
 
 .container1 {

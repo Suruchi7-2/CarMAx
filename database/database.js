@@ -5,7 +5,7 @@ dotenv.config()
 const MONGODB_URI = process.env.mongouri;
 
 
-
+//connectivity for database
 mongoose
     .connect(MONGODB_URI, {
         useNewUrlParser: true,

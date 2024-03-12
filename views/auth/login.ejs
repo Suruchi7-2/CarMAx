@@ -1,47 +1,51 @@
-  <%- include('../partials/head') %>
-  <link rel="stylesheet" href="css/login.css" />
-  </head>
-  <body>
-  
-    <div class="container">
-    <section>
-      <span class="bg"></span>
-      <%- include('../partials/navbar') %>
-        <div class="form-container">
-            <h1>Login</h1>
-           <!-- <div class="button-box">
+<%- include('../partials/head') %>
+    <link rel="stylesheet" href="css/login.css" />
+    </head>
+
+    <body>
+
+        <div class="container">
+            <section>
+                <span class="bg"></span>
+                <%- include('../partials/navbar') %>
+                    <div class="form-container">
+                        <h1>Login</h1>
+                        <!-- <div class="button-box">
             <div id="btn-toggle">
 
             </div>
             <a  href="/login" class="toggle-btn">Login</a>
             <a  href="/signup" class="toggle-btn">Signup</a>
            </div> -->
-    <form action="/login" method="POST" >
-      <div class="control">
-        <% if(msg){ %>
-          <div class="user-message"><%=msg%></div>
-           <%}%>
-      <label for="email">Email or Username</label>
-        <input type="text" name="email" id="email" />
-      </div>
-      <div class="control">
-        <label for="email">Password</label>
-          <input type="password" name="pass" id="pass" />
-        </div>
-        <span>
+                        <form action="/login" method="POST">
+                            <div class="control">
+                                <% if(msg){ %>
+                                    <div class="user-message">
+                                        <%=msg%>
+                                    </div>
+                                    <%}%>
+                                        <label for="email">Email or Username</label>
+                                        <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="control">
+                                <label for="email">Password</label>
+                                <input type="password" name="pass" id="pass" />
+                            </div>
+                            <span>
             <input type="checkbox" name="" id="">Remember me.
         </span>
-        <div class="control">
-           
-             <input type="submit" value="Login" />
-    </form>
-      <div class="link">
-        <a href="/signup">Creat an account</a>
-      </div>
-    
-        </div>
-    </section>
-    </div>
-    <%- include('../partials/jse') %> 
-  </body>
-</html>
+                            <div class="control">
+
+                                <input type="submit" value="Login" />
+                        </form>
+                        <div class="link">
+                            <a href="/signup">Creat an account</a>
+                        </div>
+
+                        </div>
+            </section>
+            </div>
+            <%- include('../partials/jse') %>
+    </body>
+
+    </html>

@@ -89,7 +89,7 @@ app.post("/login", (req, res) => {
         bcrypt.compare(password, user.password).then((doMatch) => {
             if (!doMatch) {
                 return res.status(422).render("auth/login", {
-                    msg: "Invalid email or password",
+                    msg: "Invalid emailid or password",
                     oldInput: { email: email, pass: password },
                 });
             }

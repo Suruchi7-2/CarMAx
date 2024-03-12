@@ -1,42 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
-
-:root{
+:root {
     --Playfair: 'Playfair Display', serif;
     --Quicksand: 'Quicksand', sans-serif;
     --Roboto: 'Roboto', sans-serif;
     --dark: #08010a;
     --exDark: #050000;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: var(--Quicksand);
 }
-body{
+
+body {
     line-height: 1.4;
     color: var(--dark);
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
-.container{
+
+.container {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
 }
-header{
+
+header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4) ), url(img/bgg.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bgg.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
 }
-.navbar{
-    background: rgba(7, 6, 6, 0.6) ;
+
+.navbar {
+    background: rgba(7, 6, 6, 0.6);
     padding: 1.2rem;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #fff;
     font-size: 2rem;
     display: block;
@@ -45,11 +51,13 @@ header{
     font-family: var(--Playfair);
     letter-spacing: 1px;
 }
-.navbar-nav{
+
+.navbar-nav {
     padding: 0.8rem 0 0.2rem 0;
     text-align: center;
 }
-.navbar-nav a{
+
+.navbar-nav a {
     text-transform: uppercase;
     font-family: var(--Roboto);
     letter-spacing: 1px;
@@ -61,10 +69,12 @@ header{
     letter-spacing: 3px;
     transition: opacity o.5s ease;
 }
-.navbar-nav a:hover{
+
+.navbar-nav a:hover {
     opacity: 0.7;
 }
-.banner{
+
+.banner {
     flex: 1;
     display: flex;
     align-items: center;
@@ -72,16 +82,19 @@ header{
     text-align: center;
     color: #fff;
 }
-.banner-title{
+
+.banner-title {
     font-size: 3rem;
     font-family: var(--Playfair);
     line-height: 1.2;
 }
-.banner-title span{
+
+.banner-title span {
     font-family: var(--Playfair);
     color: var(--exDark);
 }
-.banner p{
+
+.banner p {
     padding: 1rem 0 2rem 0;
     font-size: 1.2rem;
     text-transform: capitalize;
@@ -89,14 +102,16 @@ header{
     font-weight: 300;
     word-spacing: 2px;
 }
-.banner form{
+
+.banner form {
     background: #fff;
     border-radius: 2rem;
     padding: 0.6rem 1rem;
     display: flex;
     justify-content: space-between;
 }
-.search-input{
+
+.search-input {
     font-family: var(--Roboto);
     font-size: 1.1rem;
     width: 100%;
@@ -104,20 +119,23 @@ header{
     padding: 0.6rem 0;
     border: none;
 }
-.search-input::placeholder{
+
+.search-input::placeholder {
     text-transform: capitalize;
 }
-.search-btn{
+
+.search-btn {
     width: 40px;
     font-size: 1.1rem;
     color: var(--dark);
-    border: none ;
+    border: none;
     background: transparent;
     outline: 0;
     cursor: pointer;
 }
 
- /* design
+
+/* design
  .design{
     padding: 4.5rem 0;
  }
@@ -190,48 +208,59 @@ header{
     text-transform: capitalize;
     font-family: var(--Playfair);
 } */
+
+
 /* blog */
-.blog{
+
+.blog {
     background: white;
     padding: 4.5rem 0;
 }
-.blog-content{
+
+.blog-content {
     margin: 2rem 0;
 }
-.blog-img{
+
+.blog-img {
     position: relative;
 }
-.blog-img span{
+
+.blog-img span {
     position: absolute;
-    bottom:10px;
+    bottom: 10px;
     right: 10px;
     background: var(--exDark);
     color: white;
     font-size: 1.4rem;
     padding: 0.3rem 0.6rem;
 }
-.blog-text{
+
+.blog-text {
     margin: 2.2rem 0;
     padding: 0 1rem;
 }
-.blog-text span{
+
+.blog-text span {
     font-weight: 300;
     display: block;
     padding-bottom: 0.5rem;
 }
-.blog-text h2{
+
+.blog-text h2 {
     font-family: var(--Playfair);
     padding: 1rem 0;
     font-size: 1.65rem;
     font-weight: 500;
 }
-.blog-text p{
+
+.blog-text p {
     font-weight: 300;
     font-size: 1.1rem;
     opacity: 0.9;
     padding-bottom: 1.2rem;
 }
-.blog-text a{
+
+.blog-text a {
     font-family: var(--Roboto);
     font-size: 1.1rem;
     text-decoration: none;
@@ -242,19 +271,24 @@ header{
     padding: 0.55rem 1.2rem;
     transition: all 0.5s ease;
 }
+
+
 /* footer */
-footer{
+
+footer {
     background: var(--exDark);
     color: #fff;
     text-align: center;
     padding: 2rem 0;
 }
-.social-links{
+
+.social-links {
     display: flex;
     justify-content: center;
     margin-bottom: 1.4rem;
 }
-.social-links a{
+
+.social-links a {
     background-color: rgb(6, 62, 95);
     border: 2px solid white;
     color: #fff;
@@ -269,38 +303,42 @@ footer{
     margin: 0 0.3rem;
     transition: all o.5s ease;
 }
-.social-links a:hover{
+
+.social-links a:hover {
     background: #fff;
     color: var(--exDark);
 }
-.footer span{
+
+.footer span {
     margin-top: 1rem;
     display: block;
     font-family: var(--Playfair);
     letter-spacing: 2px;
 }
-@media screen and (min-width: 540px){
-    .navbar-nav a{
+
+@media screen and (min-width: 540px) {
+    .navbar-nav a {
         padding-right: 1.2rem;
         padding-left: 1.2rem;
     }
-    .banner-title{
+    .banner-title {
         font-size: 5rem;
     }
-    .banner form{
+    .banner form {
         margin-top: 1.4rem;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 }
-@media screen and (min-width: 768px){
-    .navbar .container{
-        display:flex;
+
+@media screen and (min-width: 768px) {
+    .navbar .container {
+        display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .search-input{
+    .search-input {
         padding: 0.8rem 0;
     }
     /* .design-content{
@@ -311,20 +349,22 @@ footer{
     .design-item{
         margin: 0;
     } */
-    .blog-content{
+    .blog-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
-@media screen and (min-width: 992px){
-    .blog-content{
+
+@media screen and (min-width: 992px) {
+    .blog-content {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
 /* @media screen and (min-width: 1200px){
     .design-content{
         grid-template-columns: repeat(3, 1fr);
     }
 } */
-
